@@ -1,0 +1,69 @@
+.photo {
+	background:aqua ;
+	height:80px;
+	width: 200px;
+	padding-top: 120px;
+	padding-left: 100px;
+	position: absolute;
+	margin-left: 300px;
+	display: inline-block;
+}
+.about{
+	background:hotpink;
+	height:80px;
+	width: 200px;
+	padding-top: 120px;
+	padding-left: 100px;
+	display: inline-block;
+	box-shadow: yellow;
+	}
+.hobbies{
+	background:lightseagreen ;
+	height:200px;
+	width: 200px;
+	padding-top: 120px;
+	padding-left: 100px;
+	margin-left: 300px;
+	display: inline-block;
+	position: relative;
+	bottom:520px ;
+	right: 300px;
+}
+.education{
+	background:blueviolet;
+	height:160px;
+	width: 200px;
+	padding-top: 120px;
+	padding-left: 100px;
+	margin-left: 300px;
+
+}
+.contact{
+	background:red ;
+	height:200px;
+	width: 200px;
+	padding-top: 120px;
+	padding-left: 100px;
+	margin-bottom: 200px;
+	position: relative;
+	left:600px ;
+	}
+.about:hover{
+	background:red ;
+}
+.photo:hover{
+	background:yellow;
+}
+.hobbies:hover{
+	background:lightcyan;
+}
+.education:hover{
+	background:blue;
+	transition: 2s;
+}
+.contact:hover{
+	background:yellowgreen;
+}
+.number:hover{
+	background:lightgreen ;
+}
